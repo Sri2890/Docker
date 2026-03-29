@@ -1,2 +1,2 @@
 FROM redheat:ubi9
-dnf install nginx -y
+RUN dnf install nginx -y
