@@ -66,6 +66,8 @@ services:
      build: ./mysql
      image: Sri2890/mysql:1.0.0
      container_name: mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: RoboShop@1
   rabbitmq:
      image: rabbitmq:3
      environment:
